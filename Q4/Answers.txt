@@ -1,0 +1,18 @@
+MAGNITUDES :
+
+1.) Between a g_1=17 and g_2=19.5, there is a difference of 2.5. This corresponds to
+flux difference of 10 times. Lower number = brighter object, so:
+
+g_1 is 10x brighter than g_2
+
+
+2.) Star A is 10x brighter than Star B, by the same reasoning above. All that
+matters is the difference in magnitudes, not the magnitudes themselves. 
+
+
+3.) If we're using UBVRI, then B-V = 0 means the object has the same spectral 
+energy distribution as Vega in the B and V bands.  
+
+The spectrum would look almost flat in F_v, as the spectrum of Vega and a flat F_v 
+curve are most similar. However, it would not be flat if we plotted it in
+F_lambda. 

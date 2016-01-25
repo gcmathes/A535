@@ -1,0 +1,33 @@
+The solar constant (SC) is about 1.366 kW / m^2. Doing a quick conversion to CGS,
+
+
+SC_earth = 1.361 x 10^6 erg cm^-2 s^-1 
+
+
+Sun's size is ~0.5 deg on the sky.
+Convert to 0.0087 radians on the sky.
+This brings us to about 7.615 x 10^-5 steradians.
+
+Dividing our solar flux by this angular size, we get:
+
+
+SB_earth = 1.787 x 10^10 erg cm^-2 s^-1 str^-1
+
+
+Next, I want to calculate the solar constant from Jupiter.
+
+We know from Earth it is 1.361 x 10^6 erg cm^-2 s^-1. Now, multiply this number by
+the ratio of (d_earth / d_jupiter)^2 . This puts the flux at the reference frame
+of Jupiter. 
+
+
+SC_jupiter = (1.361 x 10^6) x (1 AU / 5.2 AU)^2 = 5.033 x 10^4 erg cm^-2 s^-1.
+
+
+As for the surface brightness of the Sun from this position, there is no change 
+from the Earth value. This is because even though the flux is decreasing as an
+inverse square, so the does the area of the object on the sky. Therefore, these
+two cancel each other out and we are left with the same surface brightness. 
+
+
+SB_jupiter = 1.787 x 10^10 erg cm^-2 s^-1 str^-1
