@@ -1,0 +1,17 @@
+1.) There are 8 NMSU programs this semester. One of which is our visit, under "NM01."
+I had some trouble understanding what the other actual programs were besides their 
+dates. I got this info from the 3.5m schedule
+
+2.) The All-Sky camera shows the location of warm items compared to the sky level. 
+The images they show are compilations of the most recent photos with warmer objects
+appearing much brighter. They note that because it is a differential compilation of
+the last images, that the warmest objects may actually appear to be dark. This allows
+us to determine the direction and speed of clouds in the sky. Finally, they include
+the pointing of the 3.5 and 2.5m telescopes on these images for reference. 
+
+The graphs show a history of sky measurements done over the past 14 hours, one
+showing the differential from average sky level and the other showing a more 
+absolute picture. 
+
+3.) Is ARCSAT still running? Looking at the schedule, it hasn't listed anything for 
+2016. 
