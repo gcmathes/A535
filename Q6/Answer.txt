@@ -1,0 +1,45 @@
+Starting with the definition of the magnitudes of STMAG and ABNU:
+
+(1) m_st = -2.5 log F_lam - 21.1
+(2) m_ab = -2.5 log F_nu - 48.6
+
+Also, we know the relation betwen F_lam and F_nu :
+
+(3) F_lam = F_nu * (nu^2) / c
+
+So, we sub in:
+
+(4) m_st = -2.5 log (F_nu * (nu^2) / c) - 21.1
+
+
+Now that we have F_nu in the equation, we can solve for a way to sub in terms 
+of m_st :
+
+
+(5) F_nu = 10 ^ (-0.4m_ab - 19.44)
+
+
+Sub back into (4) :
+
+
+(6) m_st = -2.5 log (10 ^ ( -0.4m_ab - 19.44) * (nu^2)/c) -21.1
+
+
+Inside the log, we can separate terms as such :
+
+(7) m_st = -2.5 log (10 ^ ( -0.4m_ab - 19.44)) - 2.5log(nu^2/c) - 21.1
+
+Then, log(10^x) = x , so :
+
+(8) m_st = -2.5(-0.4m_ab - 19.44) - 2.5log(nu^2/c) - 21.1
+
+(9) m_st = m_ab - 2.5log(nu^2/c) + 27.5
+
+(10) m_st - m_ab = -2.5log(nu^2/c) + 27.5
+
+(11) m_st - m_ab = -2.5log((5.45x10^14)^2 / c) + 27.5
+
+(12) m_st - m_ab = -19.99
+
+However, this seems odd that at 5500 A, then ABNU system's magnitude is -20 brighter
+than the STMAG system. 

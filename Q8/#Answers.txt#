@@ -1,0 +1,54 @@
+1.)
+Using the relation that F_lam (Vega) ~ 3.6 x 10 ^ -9 (5500 / lam) ^2:
+
+I integrate the flux over the bandpasses 4000-5000 and 5000-6000. 
+
+F_b = 3.6 x 10 ^ -9 * (INT[5500 / lambda dlambda)] from 4000 - 5000
+
+F_b = -3.6 x 10 ^ -9 * (5500 / 5000 - 5500 / 4000)
+
+
+F_b = 9.9 x 10 ^ -10 erg cm^-2 s^-1
+
+
+Similarly, we use te 5000-6000 band for the F_v value :
+
+
+F_v = 6.6 x 10 ^ -10 erg cm^-2 s^-1
+
+
+2.)
+B - V = 1
+V = 20
+So, B = 21
+
+m = -2.5log(F / Fo)
+21 = -2.5log(F_b / Fo)
+
+-8.4 = log(F_b / Fo)
+3.98 x 10 ^ -9 = F_b / Fo
+
+(3.98 x 10 ^ -9) x (3.6 x 10 ^ -9) = F_b
+
+
+F_b = 1.43 x 10 ^ -17 erg cm^-2 s^-1
+
+
+For similar vein in F_v;
+
+20 = -2.5log(F_v / Fo)
+
+
+F_v = 3.6 x 10 ^ -17
+
+
+As a sanity check, it makes sense that my V-band flux is higher than my B-band,
+given that the V-mag is lower than the B-mag.
+
+3.)
+If an object has a B-V = 1.0, that means that the object we're looking at has
+10 ^ (-0.4) times more integrated flux in the B band than in the V band compared 
+to the spectral energy distribution of Vega. This does not include information
+about the shape of the object. 
+
+4.)
